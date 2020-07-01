@@ -1,6 +1,4 @@
-# Rocket.chat integrated with WhatsApp
-
-![](media/demo.gif)
+# Rocket.chat via WhatsApp (chat-api) - <i>Subtle Approach for workplace build</i>
 
 This service sits between [Rocket.chat](rocket.chat) and [chat-api](chat-api.com).
 The goal of this project is to be able to integrate rocket chat and whatsapp seamlessly;
@@ -8,10 +6,6 @@ allowing both whatsapp users and rocket.chat users to share images, audio, video
 This solution is helpful for companies looking for centralizing their customer support, as
 it is very commom to have both a chat widget on the company's website, and users who prefer
 to use whatsapp as a customer support channel.
-
-## What this project is not.
-This project is not related to an official WhatsApp message broker, nor do I or anyone involved
-in this project offer any official message broker service.
 
 ## Running this project
 To run this project you will need:
@@ -39,5 +33,7 @@ Your webhook url should look like ```https://your-domain-name.com/msg_snd```.
 - [x] Send media messages from WhatsApp to Rocket.Chat (media currently goes as links)
 - [ ] Integrate with other APIs. (e.g., [Wassenger](https://www.wassenger.com/))
 
-## Want to contribute?
-Feel free to open a pull request with a bug fix or a feature you think is interesting.
+## How it looks like?
+
+![](media/demo.gif)
+
