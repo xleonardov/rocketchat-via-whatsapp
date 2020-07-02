@@ -69,6 +69,7 @@ def msg_recv():
 
         # for every message in the object, forward to Rocket.chat
         # tipically this is a size 1 array.
+        # this is for handling each message respectively
         for message in messages:
             # Check if the ack in the message is 0.
             # Ack zero means that the message was sent.
